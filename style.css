@@ -357,4 +357,43 @@ footer{
     .logo{
         font-size:30px;
     }
+    /* Statistics Section */
+
+#stats{
+    padding:100px 8%;
+    text-align:center;
+}
+
+.stats-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+    margin-top:50px;
+}
+
+.stat-box{
+    width:250px;
+    padding:40px;
+    border-radius:20px;
+    background:rgba(255,255,255,0.05);
+    border:1px solid rgba(255,255,255,0.1);
+    backdrop-filter:blur(15px);
+    transition:0.4s;
+}
+
+.stat-box:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 30px rgba(255,176,0,0.5);
+}
+
+.stat-box h1{
+    font-size:60px;
+    color:#ffb000;
+}
+
+.stat-box p{
+    font-size:20px;
+    margin-top:10px;
+}
 }
