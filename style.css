@@ -265,11 +265,6 @@ footer{
         flex-direction:column;
     }
 
-    nav ul{
-        text-align:center;
-        margin-top:15px;
-    }
-
     nav ul li{
         margin:10px 0;
     }
