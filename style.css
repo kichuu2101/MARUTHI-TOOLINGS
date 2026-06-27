@@ -2,7 +2,11 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial,sans-serif;
+    font-family:Arial, sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
 }
 
 body{
@@ -10,29 +14,27 @@ body{
 }
 
 header{
-    background:#0f172a;
+    background:#071739;
     color:white;
     display:flex;
     justify-content:space-between;
     align-items:center;
     padding:20px 50px;
-    position:sticky;
+    position:fixed;
+    width:100%;
     top:0;
     z-index:1000;
 }
 
 .logo{
-    font-size:28px;
+    font-size:32px;
     font-weight:bold;
 }
 
 nav ul{
     list-style:none;
     display:flex;
-}
-
-nav ul li{
-    margin-left:25px;
+    gap:25px;
 }
 
 nav ul li a{
@@ -41,13 +43,9 @@ nav ul li a{
     font-size:18px;
 }
 
-nav ul li a:hover{
-    color:orange;
-}
-
 .hero{
     height:100vh;
-    background:linear-gradient(to right,#2563eb,#1e3a8a);
+    background:linear-gradient(to right,#0f172a,#1e3a8a);
     color:white;
     display:flex;
     flex-direction:column;
@@ -61,8 +59,8 @@ nav ul li a:hover{
 }
 
 .hero p{
-    font-size:24px;
     margin:20px 0;
+    font-size:24px;
 }
 
 button{
@@ -76,13 +74,8 @@ button{
 }
 
 section{
-    padding:80px 50px;
+    padding:120px 50px;
     text-align:center;
-}
-
-section h2{
-    margin-bottom:20px;
-    font-size:40px;
 }
 
 .card-container{
@@ -96,16 +89,12 @@ section h2{
 .card{
     width:300px;
     padding:30px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
     border-radius:10px;
-    box-shadow:0 0 15px rgba(0,0,0,0.2);
-}
-
-.card h3{
-    margin-bottom:15px;
 }
 
 form{
-    width:400px;
+    max-width:600px;
     margin:auto;
 }
 
@@ -118,32 +107,25 @@ form input{
 }
 
 footer{
-    background:#0f172a;
+    background:#071739;
     color:white;
     text-align:center;
     padding:20px;
 }
 
 @media(max-width:768px){
-
     header{
         flex-direction:column;
+        padding:15px;
     }
 
     nav ul{
         flex-direction:column;
+        align-items:center;
         margin-top:15px;
     }
 
-    nav ul li{
-        margin:10px 0;
-    }
-
     .hero h1{
-        font-size:35px;
-    }
-
-    form{
-        width:100%;
+        font-size:40px;
     }
 }
