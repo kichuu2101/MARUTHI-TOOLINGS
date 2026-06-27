@@ -1,99 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maruthi Toolings</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+<title>MARUTHI TOOLINGS</title>
+
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <!-- Navigation -->
-    <header>
-        <div class="logo">MARUTHI TOOLINGS</div>
+<header>
+    <div class="logo">MARUTHI TOOLINGS</div>
 
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#jobs">Jobs</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#jobs">Jobs</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <!-- Home -->
-    <section id="home" class="hero">
-        <h1>Welcome to Maruthi Toolings</h1>
-        <p>Precision Engineering and Tool Manufacturing Solutions.</p>
-        <button id="learnMoreBtn">Learn More</button>
-    </section>
+<section id="home" class="hero">
+    <h1>Welcome to Maruthi Toolings</h1>
+    <p>Precision Tool Manufacturing Solutions</p>
+    <button id="learnBtn">Learn More</button>
+</section>
 
-    <!-- About -->
-    <section id="about">
-        <h2>About Us</h2>
-        <p>
-            Maruthi Toolings specializes in precision tooling,
-            machining, manufacturing, and engineering solutions
-            for various industries.
-        </p>
-    </section>
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        Maruthi Toolings is a leading manufacturer of precision tools,
+        CNC machining components and industrial tooling solutions.
+    </p>
+</section>
 
-    <!-- Services -->
-    <section id="services">
-        <h2>Our Services</h2>
+<section id="services">
+    <h2>Our Services</h2>
 
-        <div class="cards">
-            <div class="card">
-                <h3>Tool Manufacturing</h3>
-                <p>High-quality industrial tooling solutions.</p>
-            </div>
+    <div class="card-container">
 
-            <div class="card">
-                <h3>CNC Machining</h3>
-                <p>Accurate machining with modern equipment.</p>
-            </div>
-
-            <div class="card">
-                <h3>Custom Design</h3>
-                <p>Customized tooling solutions for clients.</p>
-            </div>
+        <div class="card">
+            <h3>Tool Manufacturing</h3>
+            <p>High precision industrial tool manufacturing services.</p>
         </div>
-    </section>
 
-    <!-- Job Application -->
-    <section id="jobs">
-        <h2>Job Application</h2>
+        <div class="card">
+            <h3>CNC Machining</h3>
+            <p>Advanced CNC machining for all industries.</p>
+        </div>
 
-        <form id="jobForm">
-            <input type="text" placeholder="Full Name" required>
+        <div class="card">
+            <h3>Custom Design</h3>
+            <p>Customized tooling solutions based on customer needs.</p>
+        </div>
 
-            <input type="email" placeholder="Email Address" required>
+    </div>
+</section>
 
-            <input type="text" placeholder="Qualification" required>
+<section id="jobs">
+    <h2>Job Application</h2>
 
-            <input type="text" placeholder="Experience" required>
+    <form id="jobForm">
 
-            <button type="submit">Apply Now</button>
-        </form>
-    </section>
+        <input type="text" placeholder="Full Name" required>
 
-    <!-- Contact -->
-    <section id="contact">
-        <h2>Contact Us</h2>
+        <input type="email" placeholder="Email Address" required>
 
-        <p>Email: info@maruthitoolings.com</p>
-        <p>Phone: +91 9876543210</p>
-        <p>Location: India</p>
-    </section>
+        <input type="text" placeholder="Qualification" required>
 
-    <footer>
-        <p>© 2026 Maruthi Toolings. All Rights Reserved.</p>
-    </footer>
+        <input type="text" placeholder="Experience" required>
 
-    <script src="script.js"></script>
+        <button type="submit">Apply Now</button>
+
+    </form>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+
+    <p>Email : info@maruthitoolings.com</p>
+    <p>Phone : +91 9876543210</p>
+    <p>Location : India</p>
+</section>
+
+<footer>
+    <p>© 2026 MARUTHI TOOLINGS | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
