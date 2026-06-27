@@ -51,7 +51,7 @@
 
         <div class="card">
             <h3>CNC Machining</h3>
-            <p>Advanced CNC machining for all industries.</p>
+            <p>Advanced VMC machining for all industries.</p>
         </div>
 
         <div class="card">
@@ -83,8 +83,8 @@
 <section id="contact">
     <h2>Contact Us</h2>
 
-    <p>Email : info@maruthitoolings.com</p>
-    <p>Phone : +91 9876543210</p>
+    <p>Email : maruthi.toolings@gmail.com</p>
+    <p>Phone : +91 9500118226</p>
     <p>Location : India</p>
 </section>
 
