@@ -3,16 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>MARUTHI TOOLINGS</title>
 
 <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 </head>
 
 <body>
 
+<div class="particles"></div>
+
 <header>
-    <div class="logo">MARUTHI TOOLINGS</div>
+    <div class="logo">
+        <i class="fa-solid fa-gear"></i>
+        MARUTHI TOOLINGS
+    </div>
 
     <nav>
         <ul>
@@ -25,49 +33,74 @@
     </nav>
 </header>
 
-<section id="home" class="hero">
-    <h1>Welcome to Maruthi Toolings</h1>
-    <p>Precision Tool Manufacturing Solutions</p>
-    <button id="learnBtn">Learn More</button>
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <h3>PRECISION • QUALITY • PERFORMANCE</h3>
+
+        <h1>PRECISION<br><span>IN EVERY CUT</span></h1>
+
+        <p>
+            Maruthi Toolings specializes in high precision tooling,
+            CNC machining and manufacturing solutions.
+        </p>
+
+        <div class="buttons">
+            <a href="#services" class="btn">Our Services</a>
+            <a href="#contact" class="btn secondary">Contact Us</a>
+        </div>
+
+    </div>
+
 </section>
 
 <section id="about">
     <h2>About Us</h2>
+
     <p>
-        Maruthi Toolings is a leading manufacturer of precision tools,
-        CNC machining components and industrial tooling solutions.
+        Maruthi Toolings provides high-quality tool manufacturing,
+        CNC machining and custom industrial solutions for modern industries.
     </p>
 </section>
 
 <section id="services">
+
     <h2>Our Services</h2>
 
-    <div class="card-container">
+    <div class="cards">
 
         <div class="card">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
             <h3>Tool Manufacturing</h3>
-            <p>High precision industrial tool manufacturing services.</p>
+            <p>High precision industrial tooling solutions.</p>
         </div>
 
         <div class="card">
+            <i class="fa-solid fa-industry"></i>
             <h3>CNC Machining</h3>
-            <p>Advanced VMC machining for all industries.</p>
+            <p>Advanced machining for accurate results.</p>
         </div>
 
         <div class="card">
+            <i class="fa-solid fa-ruler-combined"></i>
             <h3>Custom Design</h3>
-            <p>Customized tooling solutions based on customer needs.</p>
+            <p>Customized solutions for your business.</p>
         </div>
 
     </div>
+
 </section>
 
 <section id="jobs">
-    <h2>Job Application</h2>
+
+    <h2>Apply For Job</h2>
 
     <form id="jobForm">
 
         <input type="text" placeholder="Full Name" required>
+
+        <input type="tel" placeholder="Phone Number" required>
 
         <input type="email" placeholder="Email Address" required>
 
@@ -75,22 +108,31 @@
 
         <input type="text" placeholder="Experience" required>
 
+        <input type="file">
+
         <button type="submit">Apply Now</button>
 
     </form>
+
 </section>
 
 <section id="contact">
+
     <h2>Contact Us</h2>
 
-    <p>Email : maruthi.toolings@gmail.com</p>
-    <p>Phone : +91 9500118226</p>
+    <p>Email : info@maruthitoolings.com</p>
+    <p>Phone : +91 9876543210</p>
     <p>Location : India</p>
+
 </section>
 
 <footer>
-    <p>© 2026 MARUTHI TOOLINGS | All Rights Reserved</p>
+    © 2026 MARUTHI TOOLINGS | All Rights Reserved
 </footer>
+
+<a href="https://wa.me/919876543210" class="whatsapp" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
 
 <script src="script.js"></script>
 
