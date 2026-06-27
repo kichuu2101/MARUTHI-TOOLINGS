@@ -1,13 +1,26 @@
-document.getElementById("learnBtn").addEventListener("click", function () {
-    document.getElementById("about").scrollIntoView({
-        behavior: "smooth"
-    });
-});
+document.getElementById("jobForm").addEventListener("submit",function(e){
 
-document.getElementById("jobForm").addEventListener("submit", function (e) {
     e.preventDefault();
 
     alert("Application Submitted Successfully!");
 
-    document.getElementById("jobForm").reset();
+    this.reset();
+
+});
+
+window.addEventListener("scroll",()=>{
+
+    const cards=document.querySelectorAll(".card");
+
+    cards.forEach(card=>{
+
+        const position=card.getBoundingClientRect().top;
+
+        if(position<window.innerHeight-100){
+            card.style.opacity="1";
+            card.style.transform="translateY(0px)";
+        }
+
+    });
+
 });
