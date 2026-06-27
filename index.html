@@ -3,174 +3,61 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MARUTHI TOOLINGS</title>
-
+<title>Maruthi Toolings</title>
 <link rel="stylesheet" href="style.css">
-
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
-
 <body>
 
-<div class="particles"></div>
+<div class="bg"></div>
 
-<header>
-    <div class="logo">
-        <i class="fa-solid fa-gear"></i>
-        MARUTHI TOOLINGS
-    </div>
-
+<header class="navbar">
+    <div class="logo"><i class="fa-solid fa-gear"></i> MARUTHI TOOLINGS</div>
     <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#jobs">Jobs</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#jobs">Jobs</a>
+        <a href="#contact">Contact</a>
     </nav>
 </header>
-    <section id="stats">
-
-    <h2>Our Achievements</h2>
-
-    <div class="stats-container">
-
-        <div class="stat-box reveal">
-            <h1 class="counter" data-target="500">0</h1>
-            <p>Projects Completed</p>
-        </div>
-
-        <div class="stat-box reveal">
-            <h1 class="counter" data-target="100">0</h1>
-            <p>Happy Clients</p>
-        </div>
-
-        <div class="stat-box reveal">
-            <h1 class="counter" data-target="15">0</h1>
-            <p>Years Experience</p>
-        </div>
-
-        <div class="stat-box reveal">
-            <h1 class="counter" data-target="50">0</h1>
-            <p>Employees</p>
-        </div>
-
-    </div>
-
-</section>
 
 <section class="hero" id="home">
-
-    <div class="hero-content">
-
-        <h3>PRECISION • QUALITY • PERFORMANCE</h3>
-
-        <h1>
-            PRECISION<br>
-            <span>IN EVERY CUT</span>
-        </h1>
-
-        <p>
-            Leading precision tooling and CNC machining solutions
-            for modern industries.
-        </p>
-
+    <div class="hero-left reveal">
+        <p class="tag">PRECISION • QUALITY • PERFORMANCE</p>
+        <h1>PRECISION <span>IN EVERY CUT</span></h1>
+        <p>Advanced VMC machining, tooling and precision manufacturing solutions.</p>
         <div class="buttons">
             <a href="#services" class="btn">Our Services</a>
-            <a href="#contact" class="btn secondary">Contact Us</a>
+            <a href="#contact" class="btn outline">Contact Us</a>
         </div>
-
     </div>
 
-    <div class="floating-circle circle1"></div>
-    <div class="floating-circle circle2"></div>
-    <div class="floating-circle circle3"></div>
-
-</section>
-
-<section id="about">
-    <h2>About Us</h2>
-
-    <p>
-        Maruthi Toolings provides high-quality tool manufacturing,
-        CNC machining and custom industrial solutions for modern industries.
-    </p>
-</section>
-
-<section id="services">
-
-    <h2>Our Services</h2>
-
-    <div class="cards">
-
-        <div class="card">
-            <i class="fa-solid fa-screwdriver-wrench"></i>
-            <h3>Tool Manufacturing</h3>
-            <p>High precision industrial tooling solutions.</p>
+    <div class="hero-right reveal">
+        <div class="vmc-card">
+            <h2>VMC 850</h2>
+            <p>High Precision Machining Center</p>
         </div>
-
-        <div class="card">
-            <i class="fa-solid fa-industry"></i>
-            <h3>CNC Machining</h3>
-            <p>Advanced machining for accurate results.</p>
-        </div>
-
-        <div class="card">
-            <i class="fa-solid fa-ruler-combined"></i>
-            <h3>Custom Design</h3>
-            <p>Customized solutions for your business.</p>
-        </div>
-
     </div>
-
 </section>
 
-<section id="jobs">
-
-    <h2>Apply For Job</h2>
-
-    <form id="jobForm">
-
-        <input type="text" placeholder="Full Name" required>
-
-        <input type="tel" placeholder="Phone Number" required>
-
-        <input type="email" placeholder="Email Address" required>
-
-        <input type="text" placeholder="Qualification" required>
-
-        <input type="text" placeholder="Experience" required>
-
-        <input type="file">
-
-        <button type="submit">Apply Now</button>
-
-    </form>
-
+<section class="stats">
+<div class="card"><h2 class="counter" data-target="500">0</h2><p>Projects Completed</p></div>
+<div class="card"><h2 class="counter" data-target="100">0</h2><p>Happy Clients</p></div>
+<div class="card"><h2 class="counter" data-target="15">0</h2><p>Years Experience</p></div>
+<div class="card"><h2 class="counter" data-target="50">0</h2><p>Employees</p></div>
 </section>
 
-<section id="contact">
-
-    <h2>Contact Us</h2>
-
-    <p>Email : info@maruthitoolings.com</p>
-    <p>Phone : +91 9876543210</p>
-    <p>Location : India</p>
-
+<section id="services" class="services">
+<h2>Our Services</h2>
+<div class="grid">
+<div class="service reveal">VMC Machining</div>
+<div class="service reveal">Tool & Die Making</div>
+<div class="service reveal">Jigs & Fixtures</div>
+<div class="service reveal">Precision Parts</div>
+</div>
 </section>
-
-<footer>
-    © 2026 MARUTHI TOOLINGS | All Rights Reserved
-</footer>
-
-<a href="https://wa.me/919876543210" class="whatsapp" target="_blank">
-    <i class="fa-brands fa-whatsapp"></i>
-</a>
 
 <script src="script.js"></script>
-
 </body>
 </html>
